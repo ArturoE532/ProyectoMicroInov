@@ -1,24 +1,40 @@
 const mongoose = require('mongoose');
 
-const VinosShcema = new mongoose.Schema({
-    nombre:{
+const MadroñosShcema = new mongoose.Schema({
+    especie:{
         type: String,
         required: true
     },
-    codigo:{
-        type: Number,
+    estados:{
+        type: String,
         required: true
     },
-    precio:{
-        type: Number,
+    habito:{
+        type: String,
         required: true
     },
-    existencia:{
-        type: Number,
-        default: 5
+    corteza_de_la_parte_alta_del_tronco_y_ramas_principales:{
+        type: String,
+        required: true
+    },
+    corteza_de_ramillas:{
+        type: String,
+        required: true
+    },
+    peciolos:{
+        type: String,
+        required: true
+    },
+    hojas_enves:{
+        type: String,
+        required: true
+    },
+    flores:{
+        type: String,
+        required: true
     }
 })
 
-const Vino = mongoose.model('vinos', VinosShcema);
+const Madroño = mongoose.model('madroños', MadroñosShcema);
 
-module.exports = Vino;
+module.exports = Madroño;

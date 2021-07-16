@@ -1,27 +1,27 @@
 const { Mongoose } = require('mongoose');
-const ModeloVinos = require('../modelos/ModeloVinos');
+const ModeloMadroños = require('../modelos/ModeloVinos');
 
 function index(req, res) {
     console.log('ok');
-    ModeloVinos.find({})
+    ModeloMadroños.find({})
     .then(vinos => {
-        if (vinos.length) return res.status(200).send({vinos});
+        if (madroños.length) return res.status(200).send({madroños});
         return res.status(204).send({message: 'No hay hay merca'})
     }).catch(error => res.status(500).send({error}));
 }
 
 function crear(req, res) {
-    new ModeloVinos(req.body).save()
-    .then(vinos => res.status(200).send({vinos}))
+    new ModeloMadroños(req.body).save()
+    .then(madroños => res.status(200).send({madroños}))
     .catch(error => res.status(500).send({error}));
 }
 
 function buscar(req,res,next) {
     let consulta = {};
     consulta[req.params.key] = req.params.value;
-    ModeloVinos.find(consulta).then(vinos => {
-        if(!vinos.length) return next();
-        req.body.vinos = vinos;
+    ModeloMadroños.find(consulta).then(madroños => {
+        if(!madroños.length) return next();
+        req.body.madroños = madroños;
         return next();
     }).catch(error => {req.body.error = error;
         next();
@@ -30,9 +30,9 @@ function buscar(req,res,next) {
 
 function mostrar(req,res) {
     if(req.body.error) return res.status(500).send({error});
-    if(!req.body.vinos) return res.status(404).send({message: "No se encontro el producto"});
-    let vinos = req.body.vinos;
-    return res.status(200).send({vinos});
+    if(!req.body.madroños) return res.status(404).send({message: "No se encontro el producto"});
+    let madroños = req.body.madroños;
+    return res.status(200).send({madroños});
 }
 
 function actualizar(req,res) {
