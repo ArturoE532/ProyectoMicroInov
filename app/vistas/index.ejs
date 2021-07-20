@@ -1,13 +1,28 @@
-<% include partials/_header %>
+<!DOCTYPE html>
+<html>
 
-<div class="container">
+<head>
+  <meta charset="utf-8">
+  <title>Madroños</title>
+  <!-- BOOTSTRAP CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+</head>
 
-  <div class="row">
-    <!--FORM-->
-    <div class="col-md-5">
-      <div class="card">
-        <div class="card-body">
-          <form action="/add" method="post">
+<body>
+
+  <nav class="navbar navbar-dark bg-dark mb-4">
+    <a class="navbar-brand" href="#">MicroInov</a>
+  </nav>
+
+  <div class="container">
+
+    <div class="row">
+      <!--FORM-->
+      <div class="col-md-5">
+        <div class="card">
+          <div class="card-body">
+            <!--form action="/add" method="post">
             <div class="form-group">
               <input class="form-control" type="text" name="title" placeholder="Title">
             </div>
@@ -17,49 +32,65 @@
                 ></textarea>
             </div>
             <button class="btn btn-primary" type="submit">
-              Add
+              Actualizar
             </button>
-          </form>
+          </form-->
+            <a class="btn btn-danger" href="/madronos/estados/Sonora" role="button">Sonora</a>
+            <a class="btn btn-primary" href="/madronos/habito/Árbol" role="button">Arbol</a>
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" onchange="buscar()">
+              <label class="form-check-label" for="flexCheckDefault">
+                Default checkbox
+              </label>
+            </div>
+
+          </div>
         </div>
+      </div>
+
+      <!-- LIST -->
+      <div class="col-md-7">
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr>
+              <th>N°</th>
+              <th>Title</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% for(var i=0; i < madronos.length; i++) { %>
+              <tr>
+                <td>
+                  <%= i + 1%>
+                </td>
+                <td><strong>
+                    <%= madronos[i].especie %>
+                  </strong></td>
+              </tr>
+              <% } %>
+          </tbody>
+        </table>
+
       </div>
     </div>
 
-    <!-- LIST -->
-    <div class="col-md-7">
-      <table class="table table-bordered table-hover">
-        <thead>
-          <tr>
-            <th>N°</th>
-            <th>Title</th>
-            <th>Description</th>
-            <th>Operations</th>
-          </tr>
-        </thead>
-        <tbody>
-          <% for(var i=0; i < tasks.length; i++) { %>
-            <tr>
-              <td><%= i + 1%></td>
-              <td><strong><%= tasks[i].title %></strong></td>
-              <td><%= tasks[i].description %></td>
-              <td>
-                <a
-                  class="<%= tasks[i].status ? 'btn btn-success' : 'btn btn-dark'%>"
-                  href="/turn/<%= tasks[i]._id %>">Done</a>
-                <a href="/delete/<%= tasks[i]._id %>"
-                  class="btn btn-danger">
-                  Delete
-                </a>
-                <a href="/edit/<%= tasks[i]._id %>" class="btn btn-info">
-                  Edit
-                </a>
-              </td>
-            </tr>
-          <% } %>
-        </tbody>
-      </table>
-
-    </div>
   </div>
 
-</div>
+</body>
 
+<script>
+function buscar()
+{
+  if (flexCheckDefault.checked == true)
+  {
+    window.URL('/madrono/estados/Hidalgo')
+  }
+  if (flexCheckDefault.checked == false)
+  {
+    url: '/madrono/'
+  }
+}
+</script>
+
+</html>
