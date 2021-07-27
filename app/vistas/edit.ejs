@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Madroños</title>
+  <!-- BOOTSTRAP CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-dark bg-dark mb-4">
+    <a class="navbar-brand" href="#">MicroInov</a>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 offset-md-3">
+        <div class="card">
+          <div class="card-body">
+            <div class="form-group">
+              <label>
+                <%= madronos %>
+              </label>
+            </div>
+            <div class="form-group">
+              <ul>
+                <% madronos.forEach(function(madrono) { %>
+                    <li>
+                        Nombre<label for=""><strong><%= madrono.especie%></strong></label>
+                        habito: <label for=""><%= madrono.habito %></label>
+                        flores: <label for=""><%= madrono.flores %></label>
+                    </li>
+                <% }); %>
+            </ul>
+            </div>
+            <a class="btn btn-danger my-2" href="/madronos/" role="button">
+              Volver
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
