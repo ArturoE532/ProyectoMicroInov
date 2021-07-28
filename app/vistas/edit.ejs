@@ -28,13 +28,19 @@
             <div class="form-group">
               <ul>
                 <% madronos.forEach(function(madrono) { %>
-                    <li>
-                        Nombre<label for=""><strong><%= madrono.especie%></strong></label>
-                        habito: <label for=""><%= madrono.habito %></label>
-                        flores: <label for=""><%= madrono.flores %></label>
-                    </li>
-                <% }); %>
-            </ul>
+                  <li>
+                    Nombre<label for=""><strong>
+                        <%= madrono.especie%>
+                      </strong></label>
+                    habito: <label for="">
+                      <%= madrono.habito %>
+                    </label>
+                    flores: <label for="">
+                      <%= madrono.flores %>
+                    </label>
+                  </li>
+                  <% }); %>
+              </ul>
             </div>
             <a class="btn btn-danger my-2" href="/madronos/" role="button">
               Volver
