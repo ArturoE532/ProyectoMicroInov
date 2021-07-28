@@ -3,6 +3,7 @@ const CONFIG = require('./app/configuracion/config');
 const morgan = require ('morgan');
 const conexion = require ('./app/configuracion/conexion')
 const path = require('path')
+const express = require('express');
 
 conexion.connect();
 
@@ -10,6 +11,8 @@ app.use(morgan('dev'));
 
 app.set('views', path.join(__dirname, '/app/vistas'));
 app.set('view engine', 'ejs');
+
+app.use(express.static('dmc'));
 
 app.listen(CONFIG.PORT, function(erro){
     if(erro) return console.log(erro);
