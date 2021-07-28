@@ -1,5 +1,10 @@
 const { Mongoose } = require('mongoose');
 const ModeloMadro = require('../modelos/ModeloMadro');
+const path = require('path');
+
+function inicio(req, res) {
+    res.sendFile(path.join(__dirname, '../vistas/inicio.html'));
+}
 
 function index(req, res) {
     console.log('ok');
@@ -71,6 +76,7 @@ function eliminar(req,res) {
 }*/
 
 module.exports = {
+    inicio,
     index,
     crear,
     buscar,

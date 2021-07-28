@@ -7,9 +7,11 @@
   <!-- BOOTSTRAP CDN -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
     integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
 </head>
 
-<body>
+<body class="body">
 
   <nav class="navbar navbar-dark bg-dark mb-4">
     <a class="navbar-brand" href="#">MicroInov</a>
@@ -32,12 +34,12 @@
               </label>
             </div>
 
-            <div class="form-check">
+            <!-- div class="form-check">
               <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" onclick="buscar()">
               <label class="form-check-label" for="flexCheckDefault">
                 Default checkbox
               </label>
-            </div>
+            </div-->
 
           </div>
         </div>
@@ -81,7 +83,7 @@
 <script>
   function buscar() {
     if (flexCheckDefault.checked == true) {
-      window.URL('/madrono/estados/Hidalgo')
+      window.location = "/madronos/estados/Hidalgo/"; 
     }
     if (flexCheckDefault.checked == false) {
       window.location = "/madronos/";

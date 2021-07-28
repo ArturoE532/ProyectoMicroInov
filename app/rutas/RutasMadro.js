@@ -4,7 +4,8 @@ const Madrono = require('../modelos/ModeloMadro');
 
 const Router = express.Router();
   
-Router  .get('/',ControladorMadro.index)
+Router  .get('/inicio',ControladorMadro.inicio)
+        .get('/',ControladorMadro.index)
         .post('/',ControladorMadro.crear)
         .get('/:key/:value',ControladorMadro.buscar,ControladorMadro.mostrar)
         .get('/info/:key/:value',ControladorMadro.buscar,ControladorMadro.mostrarone)

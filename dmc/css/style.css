@@ -1,0 +1,213 @@
+
+*{
+    font-family: 'Barlow';
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+/*  
+  .parrafo{
+      text-align: justify;
+  }
+  
+  .titulo{
+      color: #ffd0ef;
+      text-align: center;;
+      position: relative;
+  }
+  
+  .titulo1{
+      color: #fff8db;
+      text-align: center;
+      letter-spacing: 20px;
+      font-style: italic;;
+    position: relative;
+  }
+  
+  h5{
+      color: #11999e;
+      letter-spacing: 8px;
+      font-style: italic;
+      font-weight: 600;
+  }
+  
+  
+  
+  .breadcrumb{
+    font-size: 17px;
+    background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 10%, rgba(255,255,255,0) 80%);
+    letter-spacing: 5px;
+    font-family: sans-serif;
+    position: relative;
+  }
+  
+  .breadcrumb-item a{
+    text-decoration: none;
+    color: #11999e;
+  }
+  
+  .navbar{
+      font-size: 22px;
+      font-weight: 600;
+  }
+  
+  /* footer */
+  /*
+  footer{
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #3b3b3b;
+    height: auto;
+    width: 100%;
+    font-family: "Open Sans";
+    padding-top: 30px;
+    color:#000;
+  }
+  
+  
+  .footer-bottom{
+    background: #343a40;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .center{
+      padding-left: 135px;
+  }
+  
+  /*  Login  */
+  /*
+  .contenedor{
+      width: 100%;
+      padding: 15px;
+  }
+  
+  h1{
+    font-family: 'Lobster', cursive;
+      text-align: center;
+      color: #343a40;
+      font-size: 40px;
+  }
+  
+  input[type="text"],
+  input[type="password"]{
+      font-size: 20px;
+      width: 82%;
+      padding: 10px;
+      border: none;
+  }
+  
+  .input-contenedor{
+      margin-bottom: 15px;
+      border: 1px solid #aaa;
+  }
+  .icon{
+      min-width: 50px;
+      text-align: center;
+      color: #333;
+  }
+  .button{
+      border: none;
+      width: 100%;
+      color: white;
+      font-size: 20px;
+      background:  #343a40;
+      padding: 15px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  .link{
+      text-decoration: none;
+        color: #343a40;
+      font-weight: 600;
+  }
+  .link:hover{
+       color: #11999e;
+  }
+  
+  
+  .estilo-color1{
+      background: rgb(207,34,212);
+  background: linear-gradient(90deg, rgba(207,34,212,1) 22%, rgba(249,70,170,1) 55%);
+  }
+  
+  #principal{
+    background: rgb(142,153,34);
+  background: linear-gradient(45deg, rgba(142,153,34,1) 38%, rgba(27,148,149,1) 100%);
+  }*/
+  .body{
+    background:rgb(76, 79, 26);
+  }
+  /*
+  .body:before {
+      content:'';
+      position: fixed ;
+          top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgb(208,112,219);
+    background: linear-gradient(90deg, rgba(208,112,219,0.6) 0%, rgba(80,87,190,0.6) 100%);
+  }
+  
+  .body4{
+    background-image: url("/img/fondo2.jpg");
+    background-size: 100%;
+  } 
+  
+  .body4:before {
+      content:'';
+      position: fixed ;
+          top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    background: rgb(204,223,91);
+    background: linear-gradient(90deg, rgba(204,223,91,0.6) 0%, rgba(119,188,195,0.6) 100%);
+  }
+  .nos{
+    background: rgba(255, 255, 255, 0.5);
+  }
+  
+  #color2{
+     background: pink;
+     background: linear-gradient(90deg, #D5D8DC  10%, #BDC3C7   90%);
+  }
+  
+  .body3{
+    background-image: url("/img/fondo3.jpg");
+    background-size: 100%;
+  } 
+  
+  .body3:before {
+      content:'';
+      position: fixed ;
+          top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    background: rgb(75,182,169);
+  background: linear-gradient(90deg, rgba(75,182,169,0.6) 0%, rgba(188,119,195,0.6) 100%);
+    
+  }
+  
+  .body5{
+    background-image: url("/img/fondo4.jpeg");
+    background-size: 100%;
+  } 
+  
+  .body5:before {
+      content:'';
+      position: fixed ;
+          top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    background: rgb(249,70,170);
+  background: linear-gradient(90deg, rgba(249,70,170,0.6) 0%, rgba(207,34,212,0.6) 100%);
+  }
