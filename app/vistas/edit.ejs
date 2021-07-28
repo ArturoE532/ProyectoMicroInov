@@ -26,21 +26,39 @@
               </label>
             </div>
             <div class="form-group">
+              <% madronos.forEach(function(madrono) { %>
+
+              
+              <div class="alert alert-dismissible alert-success">
+                <strong>NOMBRE:</strong> <label for=""><%= madrono.especie %></label>
+                <br>
+                <strong>ESTADO:</strong> <label for=""><%= madrono.estados %></label>
+                <br>
+                <strong>HABITO:</strong> <label for=""><%= madrono.habito %></label>
+                <br>
+                <strong>CORTEZA ALTA:</strong> <label for=""><%= madrono.corteza_de_la_parte_alta_del_tronco_y_ramas_principales %></label>
+                <br>
+                <strong>CORTEZA RAMAS:</strong> <label for=""><%= madrono.corteza_de_ramillas %></label>
+                <br>
+                <strong>PECÍOLOS:</strong> <label for=""><%= madrono.peciolos %></label>
+                <br>
+                <strong>HOJAS, ENVES:</strong> <label for=""><%= madrono.hojas_enves %></label>
+                <br>
+                <strong>FLORES:</strong> <label for=""><%= madrono.flores %></label>
+                
+              </div>
+
+            
+
+
+              <div class="alert alert-dismissible alert-info">
+            
+              </div>
+
               <ul>
-                <% madronos.forEach(function(madrono) { %>
-                  <li>
-                    Nombre<label for=""><strong>
-                        <%= madrono.especie%>
-                      </strong></label>
-                    habito: <label for="">
-                      <%= madrono.habito %>
-                    </label>
-                    flores: <label for="">
-                      <%= madrono.flores %>
-                    </label>
-                  </li>
-                  <% }); %>
-              </ul>
+                     
+                <% }); %>
+            </ul>
             </div>
             <a class="btn btn-danger my-2" href="/madronos/" role="button">
               Volver
