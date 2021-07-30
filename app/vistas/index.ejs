@@ -7,8 +7,8 @@
   <!-- BOOTSTRAP CDN -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
     integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
 </head>
 
 <body class="body">
@@ -23,24 +23,61 @@
         <div class="card">
           <div class="card-body">
 
-            <a class="btn btn-succes my-2" href="/madronos" role="button">TODOS</a> <br>
-            <a class="btn btn-danger my-2" href="/madronos/estados/Sonora" role="button">Sonora</a><br>
-            <a class="btn btn-primary my-2" href="/madronos/habito/Árbol" role="button">Arbol</a><br>
-
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" onclick="buscar()">
-              <label class="form-check-label" for="flexCheckDefault">
-                Default checkbox
-              </label>
-            </div>
-
-            <!-- div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" onclick="buscar()">
-              <label class="form-check-label" for="flexCheckDefault">
-                Default checkbox
-              </label>
-            </div-->
-
+            <aside class="left-section">
+              <span class="category"><input type="checkbox" class="btn-check" id="all" category="all">
+                <label for="all">TODO</label>
+              </span><br>
+              <p class="text-warning bg-dark">Estados</p>
+              <span class="category"><input type="checkbox" class="btn-check" id="Hidalgo" category="Hidalgo">
+                <label for="Hidalgo">Hidalgo</label>
+              </span><br>
+              <span class="category"><input type="checkbox" class="btn-check" id="Sonora" category="Sonora">
+                <label for="Sonora">Sonora</label>
+              </span><br>
+              <p class="text-warning bg-dark">Hábito</p>
+              <span class="category"><input type="checkbox" class="btn-check" id="Árbol" category="Árbol">
+                <label for="Árbol">Árbol</label>
+              </span> <br>
+              <span class="category"><input type="checkbox" class="btn-check" id="Arbusto" category="Arbusto">
+                <label for="Arbusto">Arbusto, colonial o en manchones</label>
+              </span> <br>
+              <p class="text-warning bg-dark">Corteza de la parte alta del tronco y ramas principales</p>
+              <span class="category"><input type="checkbox" class="btn-check" id="Exfoliante" category="Exfoliante">
+                <label for="Exfoliante"></label>
+              </span> <br>
+              <span class="category"><input type="checkbox" class="btn-check" id="negro" category="negro">
+                <label for="negro"></label>
+              </span> <br>
+              <p class="text-warning bg-dark">Estados</p>
+              <span class="category"><input type="checkbox" class="btn-check" id="negro" category="negro">
+                <label for="negro"></label>
+              </span> <br>
+              <span class="category"><input type="checkbox" class="btn-check" id="negro" category="negro">
+                <label for="negro"></label>
+              </span> <br>
+              <p class="text-warning bg-dark">Estados</p>
+              <span class="category"><input type="checkbox" class="btn-check" id="negro" category="negro">
+                <label for="negro"></label>
+              </span> <br>
+              <span class="category"><input type="checkbox" class="btn-check" id="negro" category="negro">
+                <label for="negro"></label>
+              </span> <br>
+              <p class="text-warning bg-dark">Estados</p>
+              <span class="category"><input type="checkbox" class="btn-check" id="negro" category="negro">
+                <label for="negro"></label>
+              </span> <br>
+              <span class="category"><input type="checkbox" class="btn-check" id="negro" category="negro">
+                <label for="negro"></label>
+              </span> <br>
+              <p class="text-warning bg-dark">Estados</p>
+              <span class="category"><input type="checkbox" class="btn-check" id="negro" category="negro">
+                <label for="negro"></label>
+              </span> <br>
+              <span class="category"><input type="checkbox" class="btn-check" id="negro" category="negro">
+                <label for="negro"></label>
+              </span> <br>
+              <button id="apply_filter" type="button" class="btn btn-success">Aplicar filtro</button>
+            </aside>
           </div>
         </div>
       </div>
@@ -55,7 +92,13 @@
           </thead>
           <tbody>
             <% for(var i=0; i < madronos.length; i++) { %>
-              <tr>
+              <tr class="producto" category="all  <%= madronos[i].estados %> 
+                                                  <%= madronos[i].habito %> 
+                                                  <%= madronos[i].corteza_de_la_parte_alta_del_tronco_y_ramas_principales %> 
+                                                  <%= madronos[i].corteza_de_ramillas %> 
+                                                  <%= madronos[i].peciolos %> 
+                                                  <%= madronos[i].hojas_enves %> 
+                                                  <%= madronos[i].flores %> ">
                 <td>
                   <%= i + 1%>
                 </td>
@@ -70,6 +113,8 @@
                   </a>
                 </td>
               </tr>
+
+
               <% } %>
           </tbody>
         </table>
@@ -80,8 +125,9 @@
 
 </body>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>
-  function buscar() {
+  /*function buscar() {
     if (flexCheckDefault.checked == true) {
       window.location = "/madronos/estados/Hidalgo/"; 
     }
@@ -89,7 +135,42 @@
       window.location = "/madronos/";
 
     }
-  }
+  }*/
+  // Buscador //
+
+  $('#buscador').on('keypress', function (e) {
+    if (e.keyCode == 13) {
+      buscar();
+    }
+  });
+
+  // Buscador //
+  $('#button_search').on('click', function () {
+    buscar();
+  });
+
+  // Casillas checkbox //
+  $('.btn-check').prop('checked', true);
+  $('#apply_filter').on('click', function () {
+    $('.producto').hide();
+    $('.btn-check:checked').each(function () {
+      var input_category = $(this).attr('category');
+      $('.producto[category*="' + input_category + '"]').show();
+      $('.producto[category*="' + null + '"]').hide();
+
+
+    });
+  });
+
+  $('#all').on('click', function () {
+
+    if ($('#all').is(':checked')) {
+      $('.btn-check:not(#all)').prop('checked', true);
+    } else if ($('#all').not(':checked')) {
+      $('.btn-check:not(#all)').prop('checked', false);
+    }
+
+  });
 </script>
 
 </html>
