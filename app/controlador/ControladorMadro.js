@@ -5,6 +5,9 @@ const path = require('path');
 function inicio(req, res) {
     res.sendFile(path.join(__dirname, '../vistas/inicio.html'));
 }
+function glosario(req, res) {
+    res.sendFile(path.join(__dirname, '../vistas/glosario.html'));
+}
 
 function index(req, res) {
     console.log('ok');
@@ -81,7 +84,8 @@ module.exports = {
     crear,
     buscar,
     mostrar,
-    mostrarone
+    mostrarone,
+    glosario
     /*actualizar,
     eliminar*/
 }
