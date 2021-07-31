@@ -173,16 +173,17 @@
       </div>
 
       <div class="col-md-7">
-        <table class="table table-bordered table-hover">
+        <table class="table table-dark table-bordered table-hover">
           <thead>
             <tr>
               <th>N°</th>
               <th>Title</th>
+              <th></th>
             </tr>
           </thead>
           <tbody>
             <% for(var i=0; i < madronos.length; i++) { %>
-              <tr class="producto" category="all  <%= madronos[i].estados %> 
+              <tr class="producto  table-info  text-dark" category="all  <%= madronos[i].estados %> 
                                                   <%= madronos[i].habito %> 
                                                   <%= madronos[i].corteza_de_la_parte_alta_del_tronco_y_ramas_principales %> 
                                                   <%= madronos[i].corteza_de_ramillas %> 

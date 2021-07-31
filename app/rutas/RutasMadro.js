@@ -1,6 +1,5 @@
 const express = require('express');
 const ControladorMadro = require('../controlador/ControladorMadro')
-const Madrono = require('../modelos/ModeloMadro');
 
 const Router = express.Router();
   
