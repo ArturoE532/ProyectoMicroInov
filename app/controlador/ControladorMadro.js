@@ -6,6 +6,10 @@ function inicio(req, res) {
     res.sendFile(path.join(__dirname, '../vistas/inicio.html'));
 }
 
+function glosario(req, res) {
+    res.sendFile(path.join(__dirname, '../vistas/glosario.html'));
+}
+
 function index(req, res) {
     console.log('ok');
     ModeloMadro.find({})
@@ -77,6 +81,7 @@ function eliminar(req,res) {
 
 module.exports = {
     inicio,
+    glosario,
     index,
     crear,
     buscar,

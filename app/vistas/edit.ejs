@@ -20,15 +20,19 @@
       <div class="col-md-5 offset-md-3">
         <div class="card">
           <div class="card-body">
-            <div class="form-group">
-              <label>
-                <%= madronos %>
-              </label>
-            </div>
-            <div class="form-group">
-              <% madronos.forEach(function(madrono) { %>
 
-              
+            <div class="form-group">
+
+              <% madronos.forEach(function(madrono) { %>
+                
+              <div>
+                <img src="/img/1<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>">
+                <img src="/img/2<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>">
+                <img src="/img/3<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>">
+              </div>
+            </div>
+
+            <div class="form-group">
               <div class="alert alert-dismissible alert-success">
                 <strong>NOMBRE:</strong> <label for=""><%= madrono.especie %></label>
                 <br>
@@ -45,24 +49,15 @@
                 <strong>HOJAS, ENVES:</strong> <label for=""><%= madrono.hojas_enves %></label>
                 <br>
                 <strong>FLORES:</strong> <label for=""><%= madrono.flores %></label>
-                
               </div>
-
-            
-
-
-              <div class="alert alert-dismissible alert-info">
-            
-              </div>
-
-              <ul>
-                     
-                <% }); %>
-            </ul>
             </div>
+
+            <% }); %>
+
             <a class="btn btn-danger my-2" href="/madronos/" role="button">
               Volver
             </a>
+            
           </div>
         </div>
       </div>
