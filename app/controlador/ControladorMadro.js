@@ -9,10 +9,6 @@ function glosario(req, res) {
     res.sendFile(path.join(__dirname, '../vistas/glosario.html'));
 }
 
-function glosario(req, res) {
-    res.sendFile(path.join(__dirname, '../vistas/glosario.html'));
-}
-
 function index(req, res) {
     console.log('ok');
     ModeloMadro.find({})
