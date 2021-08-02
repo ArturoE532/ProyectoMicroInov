@@ -7,6 +7,10 @@
   <!-- BOOTSTRAP CDN -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
     integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -15,53 +19,89 @@
     <a class="navbar-brand" href="#">MicroInov</a>
   </nav>
 
+
   <div class="container">
     <div class="row">
-      <div class="col-md-5 offset-md-3">
+      <div class="col-3">
+
+
+        <div class="card-body">
+
+          <div class="form-group">
+
+            <% madronos.forEach(function(madrono) { %>
+
+            <div>
+              <img src="/img/1<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>" id="madroñoimg">
+              <img src="/img/2<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>" id="madroñoimg">
+              <img src="/img/3<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>" id="madroñoimg">
+            </div>
+          </div>
+
+          <% }); %>
+        </div>
+
+
+      </div>
+      <div class="col-6">
         <div class="card">
           <div class="card-body">
 
             <div class="form-group">
 
               <% madronos.forEach(function(madrono) { %>
-                
-              <div>
-                <img src="/img/1<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>">
-                <img src="/img/2<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>">
-                <img src="/img/3<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>">
+
+
+              <div class="form-group">
+                <div class="alert alert-dismissible alert-success">
+                  <strong>NOMBRE:</strong> <label for=""><%= madrono.especie %></label>
+                  <br>
+                  <strong>ESTADO:</strong> <label for=""><%= madrono.estados %></label>
+                  <br>
+                  <strong>HABITO:</strong> <label for=""><%= madrono.habito %></label>
+                  <br>
+                  <strong>CORTEZA ALTA:</strong> <label
+                    for=""><%= madrono.corteza_de_la_parte_alta_del_tronco_y_ramas_principales %></label>
+                  <br>
+                  <strong>CORTEZA RAMAS:</strong> <label for=""><%= madrono.corteza_de_ramillas %></label>
+                  <br>
+                  <strong>PECÍOLOS:</strong> <label for=""><%= madrono.peciolos %></label>
+                  <br>
+                  <strong>HOJAS, ENVES:</strong> <label for=""><%= madrono.hojas_enves %></label>
+                  <br>
+                  <strong>FLORES:</strong> <label for=""><%= madrono.flores %></label>
+                </div>
               </div>
+
+              <% }); %>
+
+              <a class="btn btn-danger my-2" href="/madronos/" role="button">
+                Volver
+              </a>
+
             </div>
-
-            <div class="form-group">
-              <div class="alert alert-dismissible alert-success">
-                <strong>NOMBRE:</strong> <label for=""><%= madrono.especie %></label>
-                <br>
-                <strong>ESTADO:</strong> <label for=""><%= madrono.estados %></label>
-                <br>
-                <strong>HABITO:</strong> <label for=""><%= madrono.habito %></label>
-                <br>
-                <strong>CORTEZA ALTA:</strong> <label for=""><%= madrono.corteza_de_la_parte_alta_del_tronco_y_ramas_principales %></label>
-                <br>
-                <strong>CORTEZA RAMAS:</strong> <label for=""><%= madrono.corteza_de_ramillas %></label>
-                <br>
-                <strong>PECÍOLOS:</strong> <label for=""><%= madrono.peciolos %></label>
-                <br>
-                <strong>HOJAS, ENVES:</strong> <label for=""><%= madrono.hojas_enves %></label>
-                <br>
-                <strong>FLORES:</strong> <label for=""><%= madrono.flores %></label>
-              </div>
-            </div>
-
-            <% }); %>
-
-            <a class="btn btn-danger my-2" href="/madronos/" role="button">
-              Volver
-            </a>
-            
           </div>
         </div>
       </div>
+      <div class="col-3">
+        <div class="card-body">
+          <div class="form-group">
+
+            <% madronos.forEach(function(madrono) { %>
+
+            <div>
+              <img src="/img/1<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>" id="madroñoimg">
+              <img src="/img/2<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>" id="madroñoimg">
+              <img src="/img/3<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>" id="madroñoimg">
+            </div>
+          </div>
+
+          <% }); %>
+        </div>
+      </div>
+
     </div>
+  </div>
   </div>
 
 </body>
