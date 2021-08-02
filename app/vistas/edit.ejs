@@ -23,26 +23,26 @@
   <div class="container">
     <div class="row">
       <div class="col-3">
-
-
         <div class="card-body">
-
           <div class="form-group">
 
             <% madronos.forEach(function(madrono) { %>
 
             <div>
               <img src="/img/1<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>" id="madroñoimg">
+              <br>
+              <br>
               <img src="/img/2<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>" id="madroñoimg">
-              <img src="/img/3<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>" id="madroñoimg">
+             
             </div>
           </div>
 
           <% }); %>
         </div>
 
-
       </div>
+
+      
       <div class="col-6">
         <div class="card">
           <div class="card-body">
@@ -50,7 +50,6 @@
             <div class="form-group">
 
               <% madronos.forEach(function(madrono) { %>
-
 
               <div class="form-group">
                 <div class="alert alert-dismissible alert-success">
@@ -83,16 +82,17 @@
           </div>
         </div>
       </div>
+
       <div class="col-3">
         <div class="card-body">
-          <div class="form-group">
+          <div class="form-group" >
 
             <% madronos.forEach(function(madrono) { %>
+              <br>
+              <br>
 
-            <div>
-              <img src="/img/1<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>" id="madroñoimg">
-              <img src="/img/2<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>" id="madroñoimg">
-              <img src="/img/3<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>" id="madroñoimg">
+            <div text-light >
+              <img src="/img/3<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>" id="madroñoimg3">
             </div>
           </div>
 
