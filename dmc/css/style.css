@@ -1,16 +1,11 @@
-
-/**{
-    font-family: 'Barlow';
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+body{
+  font-family: Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #444;
+  background: #eee;
   }
-*/
 
-
-.body{
-  background:rgb(148, 235, 130);
-}
 
 input[type="text"],
 input[type="password"]{
@@ -40,7 +35,6 @@ right: 0;
 background: rgb(202,200,219);
 background: linear-gradient(90deg, rgb(103, 101, 126) 0%, rgba(178,246,162,0.4766281512605042) 100%, rgba(0,212,255,1) 100%);
 }
-
 
 .breadcrumb{
 font-size: 17px;
@@ -118,7 +112,7 @@ background: linear-gradient(90deg, rgba(27,26,41,1) 0%, rgba(57,228,126,0.899597
   height: 250px;
 }
 #madroñoimg3{
-  width: 350px; 
+  width: 250px; 
   height: 350px;
 }
 
@@ -140,3 +134,53 @@ background: linear-gradient(90deg, rgba(27,26,41,1) 0%, rgba(57,228,126,0.899597
 background-color: #336699; 
 }
 
+h1 {
+  font-weight: normal;
+  letter-spacing: -1px;
+  color: #34495E;
+}
+
+.rwd-table {
+  background: #34495E;
+  color: #fff;
+  border-radius: .4em;
+  overflow: hidden;
+}
+  tr {
+    border-color: lighten(#34495E, 10%);
+  }
+  th, td {
+    margin: .5em 1em;
+    @media (min-width: $breakpoint-alpha) { 
+      padding: 1em !important; 
+    }
+  }
+  th, td:before {
+    color: #dd5;
+  }
+
+.catgr{
+  background-color: #333;
+  color: #dd5;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  text-align: center;
+}
+
+.category{
+  padding-left: 1.5rem;
+  margin-top: .5rem;
+  
+}
+
+.left-section{
+  padding-top: 1rem;
+}
+
+.filtro{
+  padding-bottom: 1rem;
+}
+#apply_filter{
+position: -webkit-sticky;
+bottom: 20px;
+}
