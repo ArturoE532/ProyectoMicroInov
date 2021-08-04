@@ -5,8 +5,17 @@ const path = require('path');
 function inicio(req, res) {
     res.sendFile(path.join(__dirname, '../vistas/inicio.html'));
 }
+
 function glosario(req, res) {
     res.sendFile(path.join(__dirname, '../vistas/glosario.html'));
+}
+
+function login(req, res) {
+    res.sendFile(path.join(__dirname, '../vistas/login.html'));
+}
+
+function nosotros(req, res) {
+    res.sendFile(path.join(__dirname, '../vistas/nosotros.html'));
 }
 
 function index(req, res) {
@@ -81,12 +90,13 @@ function eliminar(req,res) {
 module.exports = {
     inicio,
     glosario,
+    login,
+    nosotros,
     index,
     crear,
     buscar,
     mostrar,
     mostrarone,
-    glosario
     /*actualizar,
     eliminar*/
 }

@@ -5,6 +5,8 @@ const Router = express.Router();
   
 Router  .get('/inicio',ControladorMadro.inicio)
         .get('/glosario',ControladorMadro.glosario)
+        .get('/login',ControladorMadro.login)
+        .get('/nosotros',ControladorMadro.nosotros)
         .get('/',ControladorMadro.index)
         .post('/',ControladorMadro.crear)
         .get('/:key/:value',ControladorMadro.buscar,ControladorMadro.mostrar)

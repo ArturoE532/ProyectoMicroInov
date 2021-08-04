@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Login</title>
+  <!-- BOOTSTRAP CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+    
+</head>
+
+<body class="body2">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4 pt-3">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">M I C R O I N O V</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/madronos"><i class="fas fa-home"></i>Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active " href="/madronos/login"><i class="fas fa-sign-in-alt"></i>Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/madronos/glosario"><i class="fas fa-envelope"></i>Glosario</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link active" href="/madronos/nosotros"><i class="fas fa-users"></i>Nosotros</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="/madronos">INICIO</a></li>
+				<li class="breadcrumb-item active" aria-current="page"><a href="/madronos/login">LOGIN</li></a>
+			</ol>
+		</nav>
+		<hr/>
+	</div>
+
+
+	<div class="container mt-5 mb-5">
+		<div class="row">
+			<div class="col-3">
+			</div>
+			<div class="col-6 estilo-color1 rounded-lg ">
+				<form class="mt-5 mb-5" action="/auten" method="POST">
+					<h1>Login</h1>
+					<div class="contenedor">
+						<div class="input-contenedor bg-white">
+							<i class="fa fa-envelope icon"></i>
+							<input type="text" id="username" placeholder="Correo Electronico" name="username"size="50px">
+						</div>
+						<div class="input-contenedor bg-white">
+							<i class="fa fa-key icon"></i>
+							<input type="password" id="password" placeholder="Contraseña" name="password" size="50px">
+						</div>
+						<input type="submit" value="Login" class="button">
+						<p class="text-center">Al registrarte, aceptas nuestras Condiciones de uso y Política de
+							privacidad.</p>
+						<p class="text-center">¿No tienes una cuenta? <a class="link" href="/register">Registrate </a>
+						</p>
+					</div>
+				</form>
+			</div>
+			<div class="col-3">
+			</div>
+		</div>
+	</div> <!-- /container -->
+
+	<footer class="pb-2">
+		<div class="card p-4">
+			<div class="container">
+				<div class="row text-secondary">
+					<div class="col-4 text-center">
+						<p class="fa fa-home fa-2x text-info" aria-hidden="true"></p>
+						<br>
+						<h5 class="text-info">Dirección</h5>
+						<p class="fs-4"> Av.Revolucion #246
+							<br>
+							Colonia: San Jose de Buena Vista
+						</p>
+					</div>
+					<div class="col-4 text-center">
+						<p class="fa fa-whatsapp fa-2x text-success" aria-hidden="true"></p>
+						<br>
+						<h5 class="text-success">Contáctanos</h5>
+						<p class="fs-4">+52 4651002344</p>
+					</div>
+					<div class="col-4 text-center">
+						<a href="#">
+							<p class="fa fa-instagram fa-2x text-danger" aria-hidden="true"></p>
+						</a>
+						<br>
+						<h5 class="text-danger">Siguenos en instagram</h5>
+						<p>@Madronos_madronos</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="text-center p-3 m-3 footerint" style="background: rgb(55, 122, 42) ">
+			NoCopyRight &copy;
+			<a href="">Madronos México</a>
+		</div>
+	</footer>
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+		crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://kit.fontawesome.com/444e1aeffa.js" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
