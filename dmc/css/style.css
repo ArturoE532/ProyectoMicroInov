@@ -184,3 +184,20 @@ h1 {
 position: -webkit-sticky;
 bottom: 20px;
 }
+
+img.zoom {
+  position:relative; z-index:1;
+  width: 350px;
+  height: 200px;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+}
+
+.transition {
+  -webkit-transform: scale(1.8); 
+  -moz-transform: scale(1.8);
+  -o-transform: scale(1.8);
+  transform: scale(1.8);
+}

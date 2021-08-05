@@ -32,9 +32,33 @@ const madronosShcema = new mongoose.Schema({
     flores:{
         type: Array,
         required: true
+    },
+    peciolos_y_ramillas:{
+        type: Array,
+        required: true
+    },
+    hojas_duración_y_textura:{
+        type: Array,
+        required: true
+    },
+    hojas_las_más_anchas:{
+        type: Array,
+        required: true
+    },
+    hojas_margen:{
+        type: Array,
+        required: true
+    },
+    inflorescencia:{
+        type: Array,
+        required: true
     }
   })
 
 const Madrono = mongoose.model('madronos', madronosShcema);
 
 module.exports = Madrono;
+
+
+
+

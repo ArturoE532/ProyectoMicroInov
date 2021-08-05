@@ -52,120 +52,162 @@
   </div>
   </head>
 
-    <div class="container pb-3">
-      <div class="row">
-        <div class="col-3">
-          <div class="card-body">
-            <div class="form-group">
+  <div class="container pb-3">
+    <div class="row">
+      <div class="col-3">
+        <div class="card-body">
+          <div class="form-group">
 
-              <% madronos.forEach(function(madrono) { %>
+            <% madronos.forEach(function(madrono) { %>
 
-                <div>
-                  <img src="/img/1<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>" id="madroñoimg">
-                  <br>
-                  <br>
-                  <img src="/img/2<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>" id="madroñoimg">
-                </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-6">
-          <div class="card">
-            <div class="card-body">
-              <div class="form-group">
-                  <div class="form-group">
-                    <div class="card alert-dismissible alert-success p-3">
-                      <strong>NOMBRE:</strong> <label for="">
-                        <%= madrono.especie %>
-                      </label>
-                      <strong>ESTADO:</strong> <label for="">
-                        <%= madrono.estados %>
-                      </label>
-                      <strong>HABITO:</strong> <label for="">
-                        <%= madrono.habito %>
-                      </label>
-                      <strong>CORTEZA ALTA:</strong> <label for="">
-                        <%= madrono.corteza_de_la_parte_alta_del_tronco_y_ramas_principales %>
-                      </label>
-                      <strong>CORTEZA RAMAS:</strong> <label for="">
-                        <%= madrono.corteza_de_ramillas %>
-                      </label>
-                      <strong>PECÍOLOS:</strong> <label for="">
-                        <%= madrono.peciolos %>
-                      </label>
-                      <strong>HOJAS, ENVES:</strong> <label for="">
-                        <%= madrono.hojas_enves %>
-                      </label>
-                      <strong>FLORES:</strong> <label for="">
-                        <%= madrono.flores %>
-                      </label>
-                    </div>
-                  </div>
-
-                    <a class="btn btn-danger my-2" href="/madronos/" role="button">
-                      Volver
-                    </a>
-
+              <div>
+                <img class="zoom" src="/img/1<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>" id="madroñoimg">
+                <br>
+                <br>
+                <img class="zoom" src="/img/2<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>" id="madroñoimg">
               </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6">
+        <div class="card">
+          <div class="card-body">
+            <div class="form-group">
+              <div class="form-group">
+                <div class="card alert-dismissible alert-success p-3">
+                  <strong>NOMBRE:</strong>
+                  <label for="">
+                    <%= madrono.especie %>
+                  </label>
+                  <strong>ESTADO:</strong> 
+                  <label for="">
+                    <%= madrono.estados %>
+                  </label>
+                  <strong>HABITO:</strong> 
+                  <label for="">
+                    <%= madrono.habito %>
+                  </label>
+                  <strong class="datoc" value="<%= madrono.corteza_de_la_parte_alta_del_tronco_y_ramas_principales %>">CORTEZA ALTA:</strong> 
+                  <label class="datoc" for="">
+                    <%= madrono.corteza_de_la_parte_alta_del_tronco_y_ramas_principales %>
+                  </label>
+                  <strong class="dato" value="<%= madrono.peciolos_y_ramillas %>">PECIOLOS Y RAMILLAS:</strong> 
+                  <label class="dato" for="">
+                    <%= madrono.peciolos_y_ramillas %>
+                  </label>
+                  <strong class="datoc" value="<%= madrono.corteza_de_ramillas %>">CORTEZA RAMAS:</strong> 
+                  <label class="datoc" for="">
+                    <%= madrono.corteza_de_ramillas %>
+                  </label>
+                  <strong class="datoc" value="<%= madrono.peciolos %>">PECÍOLOS:</strong> 
+                  <label class="datoc" for="">
+                    <%= madrono.peciolos %>
+                  </label>
+                  <strong class="dato" value="<%= madrono.hojas_duración_y_textura %>">HOJAS (DURACION Y TEXTURA):</strong> 
+                  <label class="dato" for="">
+                    <%= madrono.hojas_duración_y_textura %>
+                  </label>
+                  <strong class="dato" value="<%= madrono.hojas_las_más_anchas %>">HOLAS (LAS MAS ANCHAS):</strong>
+                  <label class="dato" for="">
+                    <%= madrono.hojas_las_más_anchas %>
+                  </label>
+                  <strong class="dato" value="<%= madrono.hojas_margen %>">HOJAS, MARGEN:</strong> 
+                  <label class="dato" for="">
+                    <%= madrono.hojas_margen %>
+                  </label>
+                  <strong>HOJAS, ENVES:</strong> 
+                  <label for="">
+                    <%= madrono.hojas_enves %>
+                  </label>
+                  <strong class="dato" value="<%= madrono.inflorescencia %>">INFLORESCENCIA:</strong> 
+                  <label class="dato" for="">
+                    <%= madrono.inflorescencia %>
+                  </label>
+                  <strong>FLORES:</strong> <label for="">
+                    <%= madrono.flores %>
+                  </label>
+                </div>
+              </div>
+
+              <a class="btn btn-danger my-2" href="/madronos/" role="button">
+                Volver
+              </a>
+
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="col-3">
-          <div class="card-body">
-            <div class="form-group">
-                <br>
-                <br>
-                <div text-light>
-                  <img src="/img/3<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>" id="madroñoimg3">
-                </div>
+      <div class="col-3">
+        <div class="card-body">
+          <div class="form-group">
+            <br>
+            <br>
+            <div>
+              <img class="zoom" src="/img/3<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>" id="madroñoimg3">
             </div>
-
-            <% }); %>
-
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <footer class="pb-2">
-      <div class="card p-4">
-        <div class="container">
-          <div class="row text-secondary">
-            <div class="col-4 text-center">
-              <p class="fa fa-home fa-2x text-info" aria-hidden="true"></p>
+  <footer class="pb-2">
+    <div class="card p-4">
+      <div class="container">
+        <div class="row text-secondary">
+          <div class="col-4 text-center">
+            <p class="fa fa-home fa-2x text-info" aria-hidden="true"></p>
+            <br>
+            <h5 class="text-info">Dirección</h5>
+            <p class="fs-4"> Av.Revolucion #246
               <br>
-              <h5 class="text-info">Dirección</h5>
-              <p class="fs-4"> Av.Revolucion #246
-                <br>
-                Colonia: San Jose de Buena Vista
-              </p>
-            </div>
-            <div class="col-4 text-center">
-              <p class="fa fa-whatsapp fa-2x text-success" aria-hidden="true"></p>
-              <br>
-              <h5 class="text-success">Contáctanos</h5>
-              <p class="fs-4">+52 4651002344</p>
-            </div>
-            <div class="col-4 text-center">
-              <a href="#">
-                <p class="fa fa-instagram fa-2x text-danger" aria-hidden="true"></p>
-              </a>
-              <br>
-              <h5 class="text-danger">Siguenos en instagram</h5>
-              <p>@Madronos_madronos</p>
-            </div>
+              Colonia: San Jose de Buena Vista
+            </p>
+          </div>
+          <div class="col-4 text-center">
+            <p class="fa fa-whatsapp fa-2x text-success" aria-hidden="true"></p>
+            <br>
+            <h5 class="text-success">Contáctanos</h5>
+            <p class="fs-4">+52 4651002344</p>
+          </div>
+          <div class="col-4 text-center">
+            <a href="#">
+              <p class="fa fa-instagram fa-2x text-danger" aria-hidden="true"></p>
+            </a>
+            <br>
+            <h5 class="text-danger">Siguenos en instagram</h5>
+            <p>@Madronos_madronos</p>
           </div>
         </div>
       </div>
-      <div class="text-center p-3 m-3 footerint" style="background: rgb(55, 122, 42) ">
-        NoCopyRight &copy;
-        <a href="">Madronos México</a>
-      </div>
-    </footer>
+    </div>
+    <div class="text-center p-3 m-3 footerint" style="background: rgb(55, 122, 42) ">
+      NoCopyRight &copy;
+      <a href="">Madronos México</a>
+    </div>
+  </footer>
 
-    <script src="https://kit.fontawesome.com/444e1aeffa.js" crossorigin="anonymous"></script>
-  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/444e1aeffa.js" crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function () {
+      if ($(".dato").attr("value") === "") {
+        $('.dato').hide();
+      }
+      if ($(".datoc").attr("value") === "") {
+        $('.datoc').hide();
+      }
+      $('.zoom').hover(function () {
+        $(this).addClass('transition');
+      }, function () {
+        $(this).removeClass('transition');
+      });
+    });
+  </script>
 
+<% }); %>
+
+</body>
 </html>

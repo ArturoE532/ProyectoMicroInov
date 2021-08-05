@@ -84,10 +84,10 @@
 
 
                 <div>
-                  <img src="/img/1<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>" id="madroñoimg">
+                  <img class="zoom" src="/img/1<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>" id="madroñoimg">
                   <br>
                   <br>
-                  <img src="/img/2<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>" id="madroñoimg">
+                  <img class="zoom" src="/img/2<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>" id="madroñoimg">
                 </div>
             </div>
           </div>
@@ -141,7 +141,7 @@
                 <br>
                 <br>
                 <div text-light>
-                  <img src="/img/3<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>" id="madroñoimg3">
+                  <img class="zoom" src="/img/3<%= madrono.especie %>.jpg" alt="<%= madrono.especie %>" id="madroñoimg3">
                 </div>
             </div>
 
@@ -190,5 +190,16 @@
 
     <script src="https://kit.fontawesome.com/444e1aeffa.js" crossorigin="anonymous"></script>
   </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+        $('.zoom').hover(function() {
+            $(this).addClass('transition');
+        }, function() {
+            $(this).removeClass('transition');
+        });
+    });
+    </script>
 
 </html>
