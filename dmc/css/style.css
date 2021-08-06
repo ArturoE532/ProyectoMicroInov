@@ -6,6 +6,57 @@ body{
   background: #eee;
   }
 
+  .texto{
+    text-align: justify;
+    font-family: 'Delius', cursive;
+    font-size: 15px;
+    letter-spacing: 1px;
+
+  }
+ 
+
+  .textotabla{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+
+
+  .textotabla2{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+  .titulo{
+    font-family: 'Style Script', cursive;
+    font-size: 40px;
+  }
+  .titulo2{
+    font-family: 'Style Script', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+
+  .descripcion{
+    font-family: 'Petrona', cursive;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  h1{
+    font-size: 50px;
+    font-family: 'Style Script', cursive;
+    text-align: center;
+    font-weight: bold;
+  }
+  .glosario{
+    color:ivory;
+  }
+
+  .subtitulos{
+    font-family: 'Spectral SC', serif;
+    font-size: 20px;
+  }
 
 input[type="text"],
 input[type="password"]{
@@ -117,7 +168,11 @@ background: linear-gradient(90deg, rgba(27,26,41,1) 0%, rgba(57,228,126,0.899597
 }
 
 .color1{
-  background-color:#21AC4A;
+  background-color:mediumseagreen;
+
+}
+.color3{
+  background-color:rgb(2, 51, 51);
 
 }
 .color2{
@@ -189,10 +244,10 @@ img.zoom {
   position:relative; z-index:1;
   width: 350px;
   height: 200px;
-  -webkit-transition: all .2s ease-in-out;
+  /*-webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
-  -ms-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;*/
 }
 
 .transition {

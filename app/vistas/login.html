@@ -10,19 +10,25 @@
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
     
 </head>
 
 <body class="body2">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4 pt-3">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4 pt-3" id="up">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">M I C R O I N O V</a>
+      <a class="navbar-brand titulo" size="30px" href="#">MicroInov</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse texto" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="/madronos"><i class="fas fa-home"></i>Inicio</a>
@@ -58,20 +64,20 @@
 			</div>
 			<div class="col-6 estilo-color1 rounded-lg ">
 				<form class="mt-5 mb-5" action="/auten" method="POST">
-					<h1>Login</h1>
+					<h1 class="text-light">login</h1>
 					<div class="contenedor">
 						<div class="input-contenedor bg-white">
 							<i class="fa fa-envelope icon"></i>
-							<input type="text" id="username" placeholder="Correo Electronico" name="username"size="50px">
+							<input type="text" class="subtitulos" id="username" placeholder="Correo Electrónico" name="username"size="50px">
 						</div>
 						<div class="input-contenedor bg-white">
 							<i class="fa fa-key icon"></i>
-							<input type="password" id="password" placeholder="Contraseña" name="password" size="50px">
+							<input type="password" class="subtitulos" id="password" placeholder="Contraseña" name="password" size="50px">
 						</div>
-						<input type="submit" value="Login" class="button">
-						<p class="text-center">Al registrarte, aceptas nuestras Condiciones de uso y Política de
+						<input type="submit" value="Login" class="button textotabla2">
+						<p class="text-center textotabla2">Al registrarte, aceptas nuestras Condiciones de uso y Política de
 							privacidad.</p>
-						<p class="text-center">¿No tienes una cuenta? <a class="link" href="/register">Registrate </a>
+						<p class="text-center textotabla2">¿No tienes una cuenta? <a class="link" href="/register">Registrate </a>
 						</p>
 					</div>
 				</form>
@@ -88,8 +94,8 @@
 					<div class="col-4 text-center">
 						<p class="fa fa-home fa-2x text-info" aria-hidden="true"></p>
 						<br>
-						<h5 class="text-info">Dirección</h5>
-						<p class="fs-4"> Av.Revolucion #246
+						<h5 class="text-info subtitulos">Dirección</h5>
+						<p class="fs-4 textotabla2 text-dark"> Av.Revolucion #246
 							<br>
 							Colonia: San Jose de Buena Vista
 						</p>
@@ -97,26 +103,25 @@
 					<div class="col-4 text-center">
 						<p class="fa fa-whatsapp fa-2x text-success" aria-hidden="true"></p>
 						<br>
-						<h5 class="text-success">Contáctanos</h5>
-						<p class="fs-4">+52 4651002344</p>
+						<h5 class="text-success subtitulos">Contáctanos</h5>
+						<p class="fs-4 textotabla2 text-dark">+52 4651002344</p>
 					</div>
 					<div class="col-4 text-center">
 						<a href="#">
-							<p class="fa fa-instagram fa-2x text-danger" aria-hidden="true"></p>
+							<p class="fa fa-instagram fa-2x text-danger textotabla" aria-hidden="true"></p>
 						</a>
 						<br>
-						<h5 class="text-danger">Siguenos en instagram</h5>
-						<p>@Madronos_madronos</p>
+						<h5 class="text-danger subtitulos">Siguenos en instagram</h5>
+						<p class="textotabla2 text-dark">@Madronos_madronos</p>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="text-center p-3 m-3 footerint" style="background: rgb(55, 122, 42) ">
+		<div class="text-center p-3 m-3 footerint textotabla" style="background: rgb(55, 122, 42) ">
 			NoCopyRight &copy;
 			<a href="">Madronos México</a>
 		</div>
 	</footer>
-
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
