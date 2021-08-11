@@ -6,6 +6,10 @@ function inicio(req, res) {
     res.sendFile(path.join(__dirname, '../vistas/inicio.html'));
 }
 
+/*function informacion(req, res) {
+    res.sendFile(path.join(__dirname, '../vistas/informacion.ejs'));
+}*/
+
 function glosario(req, res) {
     res.sendFile(path.join(__dirname, '../vistas/glosario.html'));
 }
@@ -22,7 +26,7 @@ function index(req, res) {
     console.log('ok');
     ModeloMadro.find({})
         .then(madronos => {
-            if (madronos.length) return res.status(200).render('index', {
+            if (madronos.length) return res.status(200).render('informacion', {
                 madronos
             });
             return res.status(204).send({ message: 'No hay madronos' })
@@ -52,7 +56,7 @@ function mostrar(req, res) {
     if (req.body.error) return res.status(500).send({ error });
     if (!req.body.madronos) return res.status(404).send({ message: "No se encontro ningun madrono" });
     let madronos = req.body.madronos;
-    return res.status(200).render('index', {
+    return res.status(200).render('informacion', {
         madronos
     });
 }
@@ -92,6 +96,7 @@ module.exports = {
     glosario,
     login,
     nosotros,
+ 
     index,
     crear,
     buscar,

@@ -13,6 +13,14 @@ body{
     letter-spacing: 1px;
 
   }
+
+  .imgfondo{
+    width: 22rem;
+    height: 22rem;
+    z-index: 1;
+    justify-content: center;
+    
+  }
  
 
   .textotabla{
@@ -27,6 +35,14 @@ body{
     font-size: 18px;
     letter-spacing: 2px;
     font-weight: bold;
+  }
+
+  .textotabla2_2{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: black;
   }
   .titulo{
     font-family: 'Style Script', cursive;
@@ -56,6 +72,13 @@ body{
   .subtitulos{
     font-family: 'Spectral SC', serif;
     font-size: 20px;
+  }
+  .subtitulos1{
+    font-family: 'Spectral SC', serif;
+    font-size: 25px;
+    color:rgba(16,87,44,1);
+    font-weight: bold;
+
   }
 
 input[type="text"],
