@@ -1,0 +1,838 @@
+[{
+  "_id": {
+    "$oid": "60ee1aea030b556d45b7cf36"
+  },
+  "especie": "A. arizonica",
+  "estados": [
+    "Aguascalientes",
+    "Chihuahua",
+    "Ciudad de México",
+    "Coahuila",
+    "Durango",
+    "Estado de México",
+    "Guanajuato",
+    "Jalisco",
+    "Michoacán",
+    "Nayarit",
+    "Nuevo León",
+    "Querétaro",
+    "San Luis Potosí",
+    "Sinaloa",
+    "Sonora",
+    "Zacatecas"
+  ],
+  "habito": "Árbol",
+  "corteza_de_la_parte_alta_del_tronco_y_ramas_principales": [
+    "Exfoliante, la corteza interior lisa en la parte alta del tronco y en las ramas",
+    "Persistente, rugosa, gris (“leñosa”, con cáscara)"
+  ],
+  "corteza_de_ramillas": [
+    "Rugosa delgada o exfoliante en láminas pequeñas",
+    "Persistente, rugosa (con cáscara)"
+  ],
+  "peciolos": "Glabros, lisos (sin pelos) o puberulentos (como con polvito)",
+  "hojas_enves": "Glabro (sin pelos), toda la superficie verde es visible",
+  "flores": "Blancas a amarillentas o verdosas"
+},{
+  "_id": {
+    "$oid": "60ee1bc3030b556d45b7cf37"
+  },
+  "especie": "A. cf. arizonica",
+  "estados": [
+    "Aguascalientes",
+    "Durango",
+    "Jalisco",
+    "Sonora"
+  ],
+  "habito": "Árbol",
+  "corteza_de_la_parte_alta_del_tronco_y_ramas_principales": [
+    "Exfoliante, la corteza interior lisa en la parte alta del tronco y en las ramas",
+    "Persistente, rugosa, gris (“leñosa”, con cáscara)"
+  ],
+  "corteza_de_ramillas": [
+    "Rugosa delgada o exfoliante en láminas pequeñas",
+    "Persistente, rugosa (con cáscara)"
+  ],
+  "peciolos": "Glabros, lisos (sin pelos) o puberulentos (como con polvito)",
+  "hojas_enves": "Glabro (sin pelos), toda la superficie verde es visible",
+  "flores": "Blancas a amarillentas o verdosas"
+},{
+  "_id": {
+    "$oid": "60ee1c05030b556d45b7cf38"
+  },
+  "especie": "A. bicolor",
+  "estados": [
+    "Chihuahua",
+    "Ciudad de México",
+    "Durango",
+    "Estado de México",
+    "Guanajuato",
+    "Hidalgo",
+    "Jalisco",
+    "Michoacán",
+    "Morelos",
+    "Puebla",
+    "Querétaro",
+    "San Luis Potosí",
+    "Tlaxcala",
+    "Veracruz",
+    "Zacatecas"
+  ],
+  "habito": "Árbol",
+  "corteza_de_la_parte_alta_del_tronco_y_ramas_principales": [
+    "Exfoliante, la corteza interior lisa en la parte alta del tronco y en las ramas"
+  ],
+  "corteza_de_ramillas": [
+    "Exfoliante en láminas"
+  ],
+  "peciolos": "Con pelos glandulares cortos (<1.5 mm)",
+  "hojas_enves": "Con pubescencia densa que oculta totalmente lo verde del envés",
+  "flores": "Rosas o blancas con tintes rosas o rojizos [bicolor, mollis, occidentalis]"
+},{
+  "_id": {
+    "$oid": "60ee1d05030b556d45b7cf39"
+  },
+  "especie": "A. madrensis",
+  "estados": [
+    "Aguascalientes",
+    "Durango",
+    "Jalisco",
+    "Nayarit",
+    "Sinaloa",
+    "Sonora",
+    "Zacatecas"
+  ],
+  "habito": "Árbol",
+  "corteza_de_la_parte_alta_del_tronco_y_ramas_principales": "Persistente, rugosa, gris (“leñosa”, con cáscara)",
+  "corteza_de_ramillas": "Persistente, rugosa (con cáscara)",
+  "peciolos": "Con pubescencia pero sin glándulas [a veces con pelos glandulares que no son evidentes]",
+  "hojas_enves": "Con pubescencia espaciada, la superficie verde bien visible",
+  "flores": "Blancas a amarillentas o verdosas"
+},{
+  "_id": {
+    "$oid": "60ee1d18030b556d45b7cf3a"
+  },
+  "especie": "A. mollis",
+  "estados": [
+    "Aguascalientes",
+    "Chihuahua",
+    "Ciudad de México",
+    "Durango",
+    "Estado de México",
+    "Guanajuato",
+    "Guerrero",
+    "Hidalgo",
+    "Jalisco",
+    "Michoacán",
+    "Nayarit",
+    "Morelos",
+    "Nayarit",
+    "Oaxaca",
+    "Puebla",
+    "Querétaro",
+    "San Luis Potosí",
+    "Sinaloa",
+    "Sonora",
+    "Zacatecas"
+  ],
+  "habito": [
+    "Árbol",
+    "Arbusto, colonial o en manchones"
+  ],
+  "corteza_de_la_parte_alta_del_tronco_y_ramas_principales": "Exfoliante, la corteza interior lisa en la parte alta del tronco y en las ramas",
+  "corteza_de_ramillas": "Exfoliante en láminas pequeñas",
+  "peciolos": "Con pelos glandulares cortos (<1.5 mm)",
+  "hojas_enves": [
+    "Con pubescencia espaciada, la superficie verde bien visible",
+    "Con pubescencia densa pero la superficie verde es visible"
+  ],
+  "flores": "Rosas o blancas con tintes rosas o rojizos [bicolor, mollis, occidentalis]"
+},{
+  "_id": {
+    "$oid": "60ee1dd5030b556d45b7cf3b"
+  },
+  "especie": "A. occidentalis",
+  "estados": [
+    "Aguascalientes",
+    "Chihuahua",
+    "Durango",
+    "Jalisco",
+    "Nayarit",
+    "Sinaloa",
+    "Zacatecas"
+  ],
+  "habito": "Arbusto, colonial o en manchones",
+  "corteza_de_la_parte_alta_del_tronco_y_ramas_principales": "Exfoliante, la corteza interior lisa en la parte alta del tronco y en las ramas",
+  "corteza_de_ramillas": "Exfoliante en láminas",
+  "peciolos": "Glabros, lisos (sin pelos) o puberulentos (como con polvito)",
+  "hojas_enves": "Glabro (sin pelos), toda la superficie verde es visible",
+  "flores": "Rosas o blancas con tintes rosas o rojizos [bicolor, mollis, occidentalis"
+},{
+  "_id": {
+    "$oid": "60ee1e3e030b556d45b7cf3c"
+  },
+  "especie": "A. peninsularis",
+  "estados": [
+    "Baja California Sur"
+  ],
+  "habito": "Árbol",
+  "corteza_de_la_parte_alta_del_tronco_y_ramas_principales": "Exfoliante, la corteza interior lisa en la parte alta del tronco y en las ramas",
+  "corteza_de_ramillas": "Exfoliante en láminas",
+  "peciolos": "Con pubescencia pero sin glándulas [a veces con pelos glandulares que no son evidentes]",
+  "hojas_enves": "Con pubescencia espaciada, la superficie verde bien visible",
+  "flores": "Blancas a amarillentas o verdosas"
+},{
+  "_id": {
+    "$oid": "60ee1e45030b556d45b7cf3d"
+  },
+  "especie": "A. tessellata",
+  "estados": [
+    "Aguascalientes",
+    "Chihuahua",
+    "Ciudad de México",
+    "Colima",
+    "Durango",
+    "Estado de México",
+    "Guanajuato",
+    "Guerrero",
+    "Hidalgo",
+    "Jalisco",
+    "Michoacán",
+    "Morelos",
+    "Nayarit",
+    "Oaxaca",
+    "Puebla",
+    "Querétaro",
+    "San Luis Potosí",
+    "Sinaloa",
+    "Sonora",
+    "Tlaxcala",
+    "Veracruz",
+    "Zacatecas"
+  ],
+  "habito": "Árbol",
+  "corteza_de_la_parte_alta_del_tronco_y_ramas_principales": "Persistente, rugosa, gris (“leñosa”, con cáscara)",
+  "corteza_de_ramillas": "Persistente, rugosa (con cáscara)",
+  "peciolos": "Con pelos glandulares largos (1-8 mm)",
+  "hojas_enves": "Con pubescencia espaciada, la superficie verde bien visible",
+  "flores": "Blancas a amarillentas o verdosas"
+},{
+  "_id": {
+    "$oid": "60ee1e4b030b556d45b7cf3e"
+  },
+  "especie": "A. xalapensis var. xalapensis",
+  "estados": [
+    "Aguascalientes",
+    "Chiapas",
+    "Chihuahua",
+    "Ciudad de México",
+    "Coahuila",
+    "Colima",
+    "Durango",
+    "Estado de México",
+    "Guanajuato",
+    "Guerrero",
+    "Hidalgo",
+    "Jalisco",
+    "Michoacán",
+    "Morelos",
+    "Nayarit",
+    "Nuevo León",
+    "Oaxaca",
+    "Puebla",
+    "Querétaro",
+    "San Luis Potosí",
+    "Sinaloa",
+    "Sonora",
+    "Tamaulipas",
+    "Tlaxcala",
+    "Veracruz",
+    "Zacatecas"
+  ],
+  "habito": "Árbol",
+  "corteza_de_la_parte_alta_del_tronco_y_ramas_principales": "Exfoliante, la corteza interior lisa en la parte alta del tronco y en las ramas",
+  "corteza_de_ramillas": "Exfoliante en láminas",
+  "peciolos": "Con pubescencia pero sin glándulas [a veces con pelos glandulares que no son evidentes]",
+  "hojas_enves": [
+    "Con pubescencia espaciada, la superficie verde bien visible",
+    "Con pubescencia densa pero la superficie verde es visible"
+  ],
+  "flores": "Blancas a amarillentas o verdosas"
+},{
+  "_id": {
+    "$oid": "60ee1e50030b556d45b7cf3f"
+  },
+  "especie": "A. xalapensis f. glandulosa",
+  "estados": [
+    "Chiapas",
+    "Chihuahua",
+    "Ciudad de México",
+    "Durango",
+    "Estado de México",
+    "Guerrero",
+    "Hidalgo",
+    "Jalisco",
+    "Michoacán",
+    "Morelos",
+    "Oaxaca",
+    "Puebla",
+    "Querétaro",
+    "San Luis Potosí",
+    "Tlaxcala",
+    "Veracruz"
+  ],
+  "habito": "Árbol",
+  "corteza_de_la_parte_alta_del_tronco_y_ramas_principales": "Exfoliante, la corteza interior lisa en la parte alta del tronco y en las ramas",
+  "corteza_de_ramillas": "Exfoliante en láminas",
+  "peciolos": "Con pelos glandulares cortos (<1.5 mm)",
+  "hojas_enves": "Con pubescencia espaciada, la superficie verde bien visible",
+  "flores": "Blancas a amarillentas o verdosas"
+},{
+  "_id": {
+    "$oid": "60ee1e54030b556d45b7cf40"
+  },
+  "especie": "A. xalapensis var. texana",
+  "estados": [
+    "Chihuahua",
+    "Coahuila",
+    "Guanajuato",
+    "Hidalgo",
+    "Nuevo León",
+    "Querétaro",
+    "San Luis Potosí",
+    "Sonora",
+    "Tamaulipas"
+  ],
+  "habito": "Árbol",
+  "corteza_de_la_parte_alta_del_tronco_y_ramas_principales": "Exfoliante, la corteza interior lisa en la parte alta del tronco y en las ramas",
+  "corteza_de_ramillas": "Exfoliante en láminas",
+  "peciolos": [
+    "Glabros, lisos (sin pelos) o puberulentos (como con polvito)",
+    "Con pubescencia pero sin glándulas [a veces con pelos glandulares que no son evidentes]"
+  ],
+  "hojas_enves": [
+    "Glabro (sin pelos), toda la superficie verde es visible",
+    "Con pubescencia espaciada, la superficie verde bien visible",
+    "Con pubescencia densa pero la superficie verde es visible"
+  ],
+  "flores": [
+    "Blancas a amarillentas o verdosas",
+    "Rosas o blancas con tintes rosas o rojizos [bicolor, mollis, occidentalis]"
+  ]
+},{
+  "_id": {
+    "$oid": "60ee1e58030b556d45b7cf41"
+  },
+  "especie": "A. xalapensis f. alba",
+  "estados": [
+    "Durango",
+    "Sinaloa"
+  ],
+  "habito": "Árbol",
+  "corteza_de_la_parte_alta_del_tronco_y_ramas_principales": "Exfoliante, la corteza interior lisa en la parte alta del tronco y en las ramas",
+  "corteza_de_ramillas": "Exfoliante en láminas",
+  "peciolos": "Con pubescencia pero sin glándulas [a veces con pelos glandulares que no son evidentes]",
+  "hojas_enves": [
+    "Con pubescencia pero sin glándulas [a veces con pelos glandulares que no son evidentes]"
+  ],
+  "flores": "Blancas a amarillentas o verdosas"
+},{
+  "_id": {
+    "$oid": "60ee1e5c030b556d45b7cf42"
+  },
+  "especie": "C. arbutoides",
+  "estados": [
+    "Chiapas",
+    "Estado de México",
+    "Guerrero",
+    "Hidalgo",
+    "Jalisco",
+    "Michoacán",
+    "Oaxaca",
+    "Puebla",
+    "Querétaro",
+    "San Luis Potosí",
+    "Tamaulipas",
+    "Veracruz"
+  ],
+  "habito": [
+    "Árbol",
+    "Arbusto"
+  ],
+  "peciolos_y_ramillas": "Con pubescencia pero sin glándulas [a veces con pelos glandulares poco evidentes]",
+  "hojas_margen": "Margen entero a ondulado o con pocos dientes",
+  "hojas_enves": [
+    "Con pubescencia espaciada a densa, la superficie verde bien visible",
+    "Con pubescencia densa que oculta totalmente lo verde del envés"
+  ],
+  "inflorescencia": [
+    "Sin pelos glandulares",
+    "Con pelos glandulares"
+  ],
+  "flores": "Blancas, amarillentas, verdosas o rosas",
+  "hojas_duración_y_textura": "Persistentes, coriáceas o subcoriáceas",
+  "hojas_las_más_anchas": "De más de 2 cm de ancho"
+},{
+  "_id": {
+    "$oid": "60ee1e61030b556d45b7cf43"
+  },
+  "especie": "C. arguta",
+  "estados": [
+    "Chiapas",
+    "Oaxaca",
+    "Puebla",
+    "Veracruz"
+  ],
+  "habito": "Arbusto",
+  "peciolos_y_ramillas": [
+    "Glabros (sin pelitos)",
+    "Con pubescencia pero sin glándulas [a veces con pelos glandulares poco evidentes]"
+  ],
+  "hojas_margen": "Margen aserrado a dentado",
+  "hojas_enves": [
+    "Glabro (sin pelos), toda la superficie verde es visible",
+    "Con pubescencia espaciada a densa, la superficie verde bien visible"
+  ],
+  "inflorescencia": "Sin pelos glandulares",
+  "flores": "Blancas, amarillentas, verdosas o rosas",
+  "hojas_las_más_anchas": [
+    "De menos de 2 cm de ancho",
+    "De más de 2 cm de ancho"
+  ],
+  "hojas_duración_y_textura": "Persistentes, coriáceas o subcoriáceas"
+},{
+  "_id": {
+    "$oid": "60ee1e65030b556d45b7cf44"
+  },
+  "especie": "C. coahuilensis",
+  "estados": [
+    "Chihuahua",
+    "Coahuila"
+  ],
+  "habito": "Arbusto",
+  "peciolos_y_ramillas": "Con pubescencia pero sin glándulas [a veces con pelos glandulares poco evidentes]",
+  "hojas_margen": "Margen entero a ondulado o con pocos dientes",
+  "hojas_enves": [
+    "Glabro (sin pelos), toda la superficie verde es visible",
+    "Con pubescencia espaciada a densa, la superficie verde bien visible"
+  ],
+  "inflorescencia": "Con pelos glandulares",
+  "flores": "Blancas, amarillentas, verdosas o rosas",
+  "hojas_las_más_anchas": "De menos de 2 cm de ancho",
+  "hojas_duración_y_textura": "Persistentes, coriáceas o subcoriáceas"
+},{
+  "_id": {
+    "$oid": "60ee1e69030b556d45b7cf45"
+  },
+  "especie": "C. diggsii",
+  "estados": [
+    "Durango",
+    "Jalisco",
+    "Zacatecas"
+  ],
+  "habito": "Arbusto",
+  "peciolos_y_ramillas": "Con pelos glandulares evidentes",
+  "hojas_margen": "Margen entero a ondulado o con pocos dientes",
+  "hojas_enves": [
+    "Glabro (sin pelos), toda la superficie verde es visible",
+    "Con pubescencia espaciada a densa, la superficie verde bien visible"
+  ],
+  "inflorescencia": "Con pelos glandulares",
+  "flores": "Rosa intenso a rojas",
+  "hojas_las_más_anchas": "De menos de 2 cm de ancho",
+  "hojas_duración_y_textura": "Persistentes, coriáceas o subcoriáceas"
+},{
+  "_id": {
+    "$oid": "60ee1e6c030b556d45b7cf46"
+  },
+  "especie": "C. discolor subsp. discolor",
+  "estados": [
+    "Ciudad de México",
+    "Estado de México",
+    "Guerrero",
+    "Hidalgo",
+    "Jalisco",
+    "Michoacán",
+    "Morelos",
+    "Oaxaca",
+    "Tlaxcala",
+    "Veracruz"
+  ],
+  "habito": [
+    "Árbol",
+    "Arbusto"
+  ],
+  "peciolos_y_ramillas": "Glabros (sin pelitos)",
+  "hojas_margen": "Margen aserrado a dentado",
+  "hojas_enves": "Glabro (sin pelos), toda la superficie verde es visible",
+  "inflorescencia": [
+    "Sin pelos glandulares",
+    "Con pelos glandulares"
+  ],
+  "flores": "Blancas, amarillentas, verdosas o rosas",
+  "hojas_las_más_anchas": [
+    "De menos de 2 cm de ancho",
+    "De más de 2 cm de ancho"
+  ],
+  "hojas_duración_y_textura": "Persistentes, coriáceas o subcoriáceas"
+},{
+  "_id": {
+    "$oid": "60ee1e70030b556d45b7cf47"
+  },
+  "especie": "C. discolor subsp. rupestris",
+  "estados": [
+    "Colima",
+    "Jalisco",
+    "Michoacán"
+  ],
+  "habito": [
+    "Árbol",
+    "Arbusto"
+  ],
+  "peciolos_y_ramillas": "Con pubescencia pero sin glándulas [a veces con pelos glandulares poco evidentes]",
+  "hojas_margen": "Margen entero a ondulado o con pocos dientes",
+  "hojas_enves": [
+    "Con pubescencia espaciada a densa, la superficie verde bien visible",
+    "Con pubescencia densa que oculta totalmente lo verde del envés"
+  ],
+  "inflorescencia": "Sin pelos glandulares",
+  "flores": "Blancas, amarillentas, verdosas o rosas",
+  "hojas_las_más_anchas": "De más de 2 cm de ancho",
+  "hojas_duración_y_textura": "Persistentes, coriáceas o subcoriáceas"
+},{
+  "_id": {
+    "$oid": "60ee1e80030b556d45b7cf48"
+  },
+  "especie": "C. discolor subsp. manantlanensis",
+  "estados": "Jalisco",
+  "habito": "Arbusto",
+  "peciolos_y_ramillas": "Con pubescencia pero sin glándulas [a veces con pelos glandulares poco evidentes]",
+  "hojas_margen": "Margen aserrado a dentado",
+  "hojas_enves": "Con pubescencia espaciada a densa, la superficie verde bien visible",
+  "inflorescencia": "Con pelos glandulares",
+  "flores": "Blancas, amarillentas, verdosas o rosas",
+  "hojas_las_más_anchas": "",
+  "hojas_duración_y_textura": "Persistentes, coriáceas o subcoriáceas"
+},{
+  "_id": {
+    "$oid": "60ee1e85030b556d45b7cf49"
+  },
+  "especie": "C. diversifolia",
+  "estados": "Baja California",
+  "habito": [
+    "Árbol",
+    "Arbusto"
+  ],
+  "peciolos_y_ramillas": "Con pubescencia pero sin glándulas [a veces con pelos glandulares poco evidentes]",
+  "hojas_margen": "Margen entero a ondulado o con pocos dientes",
+  "hojas_enves": [
+    "Con pubescencia espaciada a densa, la superficie verde bien visible",
+    "Con pubescencia densa que oculta totalmente lo verde del envés"
+  ],
+  "inflorescencia": [
+    "Sin pelos glandulares",
+    "Con pelos glandulares"
+  ],
+  "flores": "Blancas, amarillentas, verdosas o rosas",
+  "hojas_las_más_anchas": "De más de 2 cm de ancho",
+  "hojas_duración_y_textura": "Persistentes, coriáceas o subcoriáceas"
+},{
+  "_id": {
+    "$oid": "60ee2174030b556d45b7cf4d"
+  },
+  "especie": "C. glandulifera",
+  "estados": [
+    "Oaxaca",
+    "Puebla"
+  ],
+  "habito": "Árbol",
+  "peciolos_y_ramillas": "Con pelos glandulares evidentes",
+  "hojas_margen": "Margen entero a ondulado o con pocos dientes",
+  "hojas_enves": "Con pubescencia densa que oculta totalmente lo verde del envés",
+  "inflorescencia": "Con pelos glandulares",
+  "flores": "Blancas, amarillentas, verdosas o rosas",
+  "hojas_las_más_anchas": [
+    "De menos de 2 cm de ancho",
+    "De más de 2 cm de ancho"
+  ],
+  "hojas_duración_y_textura": "Persistentes, coriáceas o subcoriáceas"
+},{
+  "_id": {
+    "$oid": "60ee217b030b556d45b7cf4e"
+  },
+  "especie": "C. glaucescens",
+  "estados": [
+    "Aguascalientes",
+    "Chihuahua",
+    "Durango",
+    "Estado de México",
+    "Guanajuato",
+    "Guerrero",
+    "Jalisco",
+    "Michoacán",
+    "Morelos",
+    "Nayarit",
+    "Oaxaca",
+    "Puebla",
+    "Querétaro",
+    "San Luis Potosí",
+    "Sinaloa",
+    "Zacatecas"
+  ],
+  "habito": [
+    "Árbol",
+    "Arbusto"
+  ],
+  "peciolos_y_ramillas": [
+    "Glabros (sin pelitos)",
+    "Con pubescencia pero sin glándulas [a veces con pelos glandulares poco evidentes]"
+  ],
+  "hojas_margen": "Margen entero a ondulado o con pocos dientes",
+  "hojas_enves": [
+    "Glabro (sin pelos), toda la superficie verde es visible",
+    "Con pubescencia espaciada a densa, la superficie verde bien visible"
+  ],
+  "inflorescencia": [
+    "Sin pelos glandulares",
+    "Con pelos glandulares"
+  ],
+  "flores": "Rosa intenso a rojas",
+  "hojas_las_más_anchas": "De más de 2 cm de ancho",
+  "hojas_duración_y_textura": "Deciduas, herbáceas, raro subcoriáceas"
+},{
+  "_id": {
+    "$oid": "60ee2197030b556d45b7cf4f"
+  },
+  "especie": "C. hartwegiana",
+  "estados": [
+    "Durango",
+    "Jalisco"
+  ],
+  "habito": "Arbusto",
+  "peciolos_y_ramillas": "Con pelos glandulares evidentes",
+  "hojas_margen": "Margen entero a ondulado o con pocos dientes",
+  "hojas_enves": [
+    "Con pubescencia espaciada a densa, la superficie verde bien visible",
+    "Con pubescencia densa que oculta totalmente lo verde del envés"
+  ],
+  "inflorescencia": "Con pelos glandulares",
+  "flores": "Blancas, amarillentas, verdosas o rosas",
+  "hojas_las_más_anchas": "De menos de 2 cm de ancho",
+  "hojas_duración_y_textura": "Persistentes, coriáceas o subcoriáceas"
+},{
+  "_id": {
+    "$oid": "60ee219c030b556d45b7cf50"
+  },
+  "especie": "C. laevis",
+  "estados": [
+    "Durango",
+    "Jalisco",
+    "Zacatecas"
+  ],
+  "habito": "Arbusto",
+  "peciolos_y_ramillas": "Glabros (sin pelitos)",
+  "hojas_margen": "Margen entero a ondulado o con pocos dientes",
+  "hojas_enves": "Glabro (sin pelos), toda la superficie verde es visible",
+  "inflorescencia": "Sin pelos glandulares",
+  "flores": "Rosa intenso a rojas",
+  "hojas_las_más_anchas": "De más de 2 cm de ancho",
+  "hojas_duración_y_textura": "Persistentes, coriáceas o subcoriáceas"
+},{
+  "_id": {
+    "$oid": "60ee21a1030b556d45b7cf51"
+  },
+  "especie": "C. lanata",
+  "estados": [
+    "San Luis Potosí",
+    "Tamaulipas"
+  ],
+  "habito": "Arbusto",
+  "peciolos_y_ramillas": [
+    "Con pubescencia pero sin glándulas [a veces con pelos glandulares poco evidentes]",
+    "Con pelos glandulares evidentes"
+  ],
+  "hojas_margen": "Margen entero a ondulado o con pocos dientes",
+  "hojas_enves": [
+    "Con pubescencia espaciada a densa, la superficie verde bien visible",
+    "Con pubescencia densa que oculta totalmente lo verde del envés"
+  ],
+  "inflorescencia": "Con pelos glandulares",
+  "flores": [
+    "Blancas, amarillentas, verdosas o rosas",
+    "Rosa intenso a rojas"
+  ],
+  "hojas_las_más_anchas": [
+    "De menos de 2 cm de ancho",
+    "De más de 2 cm de ancho"
+  ],
+  "hojas_duración_y_textura": "Persistentes, coriáceas o subcoriáceas"
+},{
+  "_id": {
+    "$oid": "60ee21a5030b556d45b7cf52"
+  },
+  "especie": "C. longifolia",
+  "estados": [
+    "Estado de México",
+    "Guerrero",
+    "Jalisco",
+    "Michoacán"
+  ],
+  "habito": [
+    "Árbol",
+    "Arbusto"
+  ],
+  "peciolos_y_ramillas": "Con pelos glandulares evidentes",
+  "hojas_margen": "Margen entero a ondulado o con pocos dientes",
+  "hojas_enves": [
+    "Con pubescencia espaciada a densa, la superficie verde bien visible",
+    "Con pubescencia densa que oculta totalmente lo verde del envés"
+  ],
+  "inflorescencia": "Con pelos glandulares",
+  "flores": "Blancas, amarillentas, verdosas o rosas",
+  "hojas_las_más_anchas": "De más de 2 cm de ancho",
+  "hojas_duración_y_textura": "Persistentes, coriáceas o subcoriáceas"
+},{
+  "_id": {
+    "$oid": "60ee21a8030b556d45b7cf53"
+  },
+  "especie": "C. macvaughii",
+  "estados": "Jalisco",
+  "habito": "Arbusto",
+  "peciolos_y_ramillas": "Glabros (sin pelitos)",
+  "hojas_margen": "Margen entero a ondulado o con pocos dientes",
+  "hojas_enves": "Glabro (sin pelos), toda la superficie verde es visible",
+  "inflorescencia": [
+    "Sin pelos glandulares",
+    "Con pelos glandulares"
+  ],
+  "flores": "Blancas, amarillentas, verdosas o rosas",
+  "hojas_las_más_anchas": "De menos de 2 cm de ancho",
+  "hojas_duración_y_textura": "Persistentes, coriáceas o subcoriáceas"
+},{
+  "_id": {
+    "$oid": "60ee21ac030b556d45b7cf54"
+  },
+  "especie": "C. mucronata",
+  "estados": [
+    "Guanajuato",
+    "Hidalgo",
+    "Querétaro",
+    "San Luis Potosí"
+  ],
+  "habito": [
+    "Árbol",
+    "Arbusto"
+  ],
+  "peciolos_y_ramillas": "Con pubescencia pero sin glándulas [a veces con pelos glandulares poco evidentes]",
+  "hojas_margen": [
+    "Margen entero a ondulado o con pocos dientes",
+    "Margen aserrado a dentado"
+  ],
+  "hojas_enves": [
+    "Con pubescencia espaciada a densa, la superficie verde bien visible",
+    "Con pubescencia densa que oculta totalmente lo verde del envés"
+  ],
+  "inflorescencia": "Sin pelos glandulares",
+  "flores": [
+    "Blancas, amarillentas, verdosas o rosas",
+    "Rosa intenso a rojas"
+  ],
+  "hojas_las_más_anchas": [
+    "De menos de 2 cm de ancho",
+    "De más de 2 cm de ancho"
+  ],
+  "hojas_duración_y_textura": [
+    "Persistentes, coriáceas o subcoriáceas",
+    "Deciduas, herbáceas, raro subcoriáceas"
+  ]
+},{
+  "_id": {
+    "$oid": "60ee21b0030b556d45b7cf55"
+  },
+  "especie": "C. polifolia subsp. polifolia",
+  "estados": [
+    "Aguascalientes",
+    "Chihuahua",
+    "Ciudad de México",
+    "Durango",
+    "Estado de México",
+    "Guanajuato",
+    "Jalisco",
+    "Michoacán",
+    "Nayarit",
+    "Oaxaca",
+    "Puebla",
+    "Querétaro",
+    "San Luis Potosí",
+    "Sonora",
+    "Tlaxcala",
+    "Veracruz",
+    "Zacatecas"
+  ],
+  "habito": [
+    "Árbol",
+    "Arbusto"
+  ],
+  "peciolos_y_ramillas": [
+    "Glabros (sin pelitos)",
+    "Con pubescencia pero sin glándulas [a veces con pelos glandulares poco evidentes]",
+    "Con pelos glandulares evidentes"
+  ],
+  "hojas_margen": "Margen entero a ondulado o con pocos dientes",
+  "hojas_enves": [
+    "Glabro (sin pelos), toda la superficie verde es visible",
+    "Con pubescencia espaciada a densa, la superficie verde bien visible",
+    "Con pubescencia densa que oculta totalmente lo verde del envés"
+  ],
+  "inflorescencia": [
+    "Sin pelos glandulares",
+    "Con pelos glandulares"
+  ],
+  "flores": "Blancas, amarillentas, verdosas o rosas",
+  "hojas_las_más_anchas": "De menos de 2 cm de ancho",
+  "hojas_duración_y_textura": "Persistentes, coriáceas o subcoriáceas"
+},{
+  "_id": {
+    "$oid": "60ee21b4030b556d45b7cf56"
+  },
+  "especie": "C. polifolia subsp. minor",
+  "estados": [
+    "Guanajuato",
+    "Nuevo León",
+    "San Luis Potosí",
+    "Tamaulipas"
+  ],
+  "habito": "Arbusto",
+  "peciolos_y_ramillas": [
+    "Glabros (sin pelitos)",
+    "Con pubescencia pero sin glándulas [a veces con pelos glandulares poco evidentes]"
+  ],
+  "hojas_margen": "Margen entero a ondulado o con pocos dientes",
+  "hojas_enves": [
+    "Glabro (sin pelos), toda la superficie verde es visible",
+    "Con pubescencia espaciada a densa, la superficie verde bien visible"
+  ],
+  "inflorescencia": "Sin pelos glandulares",
+  "flores": "Blancas, amarillentas, verdosas o rosas",
+  "hojas_las_más_anchas": "De menos de 2 cm de ancho",
+  "hojas_duración_y_textura": "Persistentes, coriáceas o subcoriáceas"
+},{
+  "_id": {
+    "$oid": "60ee21ba030b556d45b7cf57"
+  },
+  "especie": "C. sharpii",
+  "estados": [
+    "Tamaulipas"
+  ],
+  "habito": "Arbusto",
+  "peciolos_y_ramillas": "Con pelos glandulares evidentes",
+  "hojas_margen": "Margen entero a ondulado o con pocos dientes",
+  "hojas_enves": [
+    "Con pubescencia espaciada a densa, la superficie verde bien visible",
+    "Con pubescencia densa que oculta totalmente lo verde del envés"
+  ],
+  "inflorescencia": "Con pelos glandulares",
+  "flores": "Rosa intenso a rojas",
+  "hojas_las_más_anchas": "De más de 2 cm de ancho",
+  "hojas_duración_y_textura": "Persistentes, coriáceas o subcoriáceas"
+}]
