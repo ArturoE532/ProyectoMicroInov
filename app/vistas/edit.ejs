@@ -11,12 +11,12 @@
   <link rel="stylesheet" href="/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
-    
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+
 </head>
 
 <body class="body2">
@@ -34,7 +34,8 @@
             <a class="nav-link active" aria-current="page" href="/madronos"><i class="fas fa-home"></i>Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/madronos/informacion"><i class="fas fa-home"></i>Información</a>
+            <a class="nav-link active" aria-current="page" href="/madronos/informacion"><i
+                class="fas fa-home"></i>Información</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active " href="/madronos/login"><i class="fas fa-sign-in-alt"></i>Login</a>
@@ -89,31 +90,34 @@
                   <label for="">
                     <%= madrono.especie %>
                   </label>
-                  <strong>ESTADO:</strong> 
+                  <strong>ESTADO:</strong>
                   <label for="">
                     <%= madrono.estados %>
                   </label>
-                  <strong>HABITO:</strong> 
+                  <strong>HABITO:</strong>
                   <label for="">
                     <%= madrono.habito %>
                   </label>
-                  <strong class="datoc" value="<%= madrono.corteza_de_la_parte_alta_del_tronco_y_ramas_principales %>">CORTEZA ALTA:</strong> 
+                  <strong class="datoc"
+                    value="<%= madrono.corteza_de_la_parte_alta_del_tronco_y_ramas_principales %>">CORTEZA
+                    ALTA:</strong>
                   <label class="datoc" for="">
                     <%= madrono.corteza_de_la_parte_alta_del_tronco_y_ramas_principales %>
                   </label>
-                  <strong class="dato" value="<%= madrono.peciolos_y_ramillas %>">PECIOLOS Y RAMILLAS:</strong> 
+                  <strong class="dato" value="<%= madrono.peciolos_y_ramillas %>">PECIOLOS Y RAMILLAS:</strong>
                   <label class="dato" for="">
                     <%= madrono.peciolos_y_ramillas %>
                   </label>
-                  <strong class="datoc" value="<%= madrono.corteza_de_ramillas %>">CORTEZA RAMAS:</strong> 
+                  <strong class="datoc" value="<%= madrono.corteza_de_ramillas %>">CORTEZA RAMAS:</strong>
                   <label class="datoc" for="">
                     <%= madrono.corteza_de_ramillas %>
                   </label>
-                  <strong class="datoc" value="<%= madrono.peciolos %>">PECÍOLOS:</strong> 
+                  <strong class="datoc" value="<%= madrono.peciolos %>">PECÍOLOS:</strong>
                   <label class="datoc" for="">
                     <%= madrono.peciolos %>
                   </label>
-                  <strong class="dato" value="<%= madrono.hojas_duración_y_textura %>">HOJAS (DURACION Y TEXTURA):</strong> 
+                  <strong class="dato" value="<%= madrono.hojas_duración_y_textura %>">HOJAS (DURACION Y
+                    TEXTURA):</strong>
                   <label class="dato" for="">
                     <%= madrono.hojas_duración_y_textura %>
                   </label>
@@ -121,15 +125,15 @@
                   <label class="dato" for="">
                     <%= madrono.hojas_las_más_anchas %>
                   </label>
-                  <strong class="dato" value="<%= madrono.hojas_margen %>">HOJAS, MARGEN:</strong> 
+                  <strong class="dato" value="<%= madrono.hojas_margen %>">HOJAS, MARGEN:</strong>
                   <label class="dato" for="">
                     <%= madrono.hojas_margen %>
                   </label>
-                  <strong>HOJAS, ENVES:</strong> 
+                  <strong>HOJAS, ENVES:</strong>
                   <label for="">
                     <%= madrono.hojas_enves %>
                   </label>
-                  <strong class="dato" value="<%= madrono.inflorescencia %>">INFLORESCENCIA:</strong> 
+                  <strong class="dato" value="<%= madrono.inflorescencia %>">INFLORESCENCIA:</strong>
                   <label class="dato" for="">
                     <%= madrono.inflorescencia %>
                   </label>
@@ -139,9 +143,11 @@
                 </div>
               </div>
 
-              <a class="btn btn-danger my-2" href="/madronos/" role="button">
-                Volver
-              </a>
+              <div class="text-center">
+                <a class="btn btn-danger my-2" href="javascript:history.back()" role="button">
+                  Volver
+                </a>
+              </div>
 
             </div>
           </div>
@@ -216,7 +222,8 @@
     });
   </script>
 
-<% }); %>
+  <% }); %>
 
 </body>
+
 </html>

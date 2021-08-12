@@ -1,0 +1,22 @@
+version: '3'
+services:
+  dbmadro:
+    container_name: apirest
+    restart: always
+    build: .
+    ports:
+      - "8080:3000"
+    links:
+      - mongo
+    volumes:
+      - .:/my_app
+  mongo:
+    container_name: dbmadronos
+    image: mongo:3.2-jessie
+    restart: always
+    volumes:
+      - C:/dbapi:/data/db
+    ports:
+      - "27017:27017"
+    logging:
+      driver: none

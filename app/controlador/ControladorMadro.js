@@ -6,10 +6,6 @@ function inicio(req, res) {
     res.sendFile(path.join(__dirname, '../vistas/inicio.html'));
 }
 
-/*function informacion(req, res) {
-    res.sendFile(path.join(__dirname, '../vistas/informacion.ejs'));
-}*/
-
 function glosario(req, res) {
     res.sendFile(path.join(__dirname, '../vistas/glosario.html'));
 }

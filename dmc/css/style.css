@@ -19,7 +19,6 @@ body{
     height: 22rem;
     z-index: 1;
     justify-content: center;
-    
   }
  
 
@@ -97,6 +96,8 @@ input[type="password"]{
 .body2{
 background-image: url("/../img/planta.jpg");
 background-size: 100%;
+background-attachment: scroll;
+background-attachment: fixed;
 }
 
 .body2:before {
@@ -259,12 +260,13 @@ h1 {
   padding-bottom: 1rem;
 }
 #apply_filter{
-position: -webkit-sticky;
-bottom: 20px;
+  bottom: 20px;
+  z-index: 1;
 }
 
 img.zoom {
-  position:relative; z-index:1;
+  position:relative; 
+  z-index:1;
   width: 350px;
   height: 200px;
   /*-webkit-transition: all .2s ease-in-out;
